@@ -30,7 +30,7 @@
 
 
 	<!-- Site Stylesheet -->
-	<link rel="stylesheet" href="assets/css/app.css" type="text/css">
+	<link rel="stylesheet" href="assets/css/Contact_registration.css" type="text/css">
 
 	<!-- Google Web Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:300,400,500,600,700,800%7CPoppins:300,400,500,600,700,800" rel="stylesheet">
@@ -74,7 +74,7 @@
 					<nav id="site-navigation" class="main-nav">
 
 						<div class="site-logo">
-							<a href="index-2.html" class="logo">
+							<a href="./index.html" class="logo">
 								<img src="assets/img/logo.png" alt="site logo" class="main-logo">
 								<img src="assets/img/logo.png" alt="site logo" class="logo-sticky">
 							</a>
@@ -84,8 +84,8 @@
 						<div class="menu-wrapper main-nav-container canvas-menu-wrapper" id="mega-menu-wrap">
 							<div class="canvas-header">
 								<div class="mobile-offcanvas-logo">
-									<a href="index-2.html">
-										<img src="assets/img/logo.png" alt="site logo" class="logo-sticky">
+									<a href="./index.html">
+										<img src="assets/img/logo.png" alt="site logo" class="logo-sticky" style="position: relative; right: 18px;"  >
 									</a>
 								</div>
 
@@ -97,23 +97,44 @@
 
 							<ul class="astriol-main-menu">
 								<li class="has-submenu menu-item-depth-0">
-									<a href="index-2.html">Home</a>
-								</li>
-								<li class="menu-item-depth-0"><a href="about.html">SIP</a></li>
-								<li class="has-submenu menu-item-depth-0">
-									<a href="blog.html">Gallery</a>
+									<a href="./index.html">Home</a>
 								</li>
 								<li class="has-submenu menu-item-depth-0">
-									<a href="#">Team</a>
+									<a href="#">Initiative</a>
+									<ul class="sub-menu">
+										<li><a href="./sip.html">SIP</a></li>
+										<li><a href="#">CAP</a></li>
+										<li><a href="#">Startup Incubation</a></li>
+										<li><a href="#">Imprenditore</a></li>
+										<li><a href="#">E-mentoring</a></li>
+										<li><a href="#">Skill Development</a></li>
+									</ul>
+								</li>
+								<li class="has-submenu menu-item-depth-0">
+									<a href="#">Archives</a>
+									<ul class="sub-menu">
+										<li><a href="#">Events</a></li>
+										<li><a href="./gallery.html">Gallery</a></li>
+										<li><a href="./alumni.html">Alumni</a></li>
+										<li><a href="#">NGIS</a></li>
+									</ul>
+								</li>
+								
+								
+								<li class="has-submenu menu-item-depth-0">
+									<a href="./team.html">Team</a>
 										
 								</li>
-								<li class="menu-item-depth-0"><a href="contact.html">Contact</a></li>
+								<li class="has-submenu menu-item-depth-0">
+									<a href="./about.html">About</a>
+								</li>
+								<li class="menu-item-depth-0"><a href="./contact.html">Contact</a></li>
 							</ul>
 						</div>
 						<!-- /.menu-wrapper -->
 
 						<div class="nav-right">
-							<a href="login.html" class="gp-btn btn-round">RECRUITMENTS</a>
+							<a href="./Recruitment.html" class="gp-btn btn-round">RECRUITMENTS</a>
 
 							<div class="astriol-burger-menu" id="mobile-menu-open">
 								<span class="bar-one"></span>
@@ -142,9 +163,9 @@
 
 					<ul class="breadcrumbs">
 						<li>
-							<a href="index-2.html">Home</a>
+							<a href="./index.html">Home</a>
 						</li>
-						<li>Sign In</li>
+						<li>Recruitments</li>
 					</ul>
 				</div>
 				<!-- /.page-title-wrapper -->
@@ -228,16 +249,26 @@
 												<label for="Mobile No">Whatsapp Number</label>
 												<input type="number" class="gp-input" name="mobile_number" id="mobile_number" placeholder="Whatsapp Number">
 											</div>
-											
 
-											
+											<!-- <ul class="gp-tabs-navigation account-nav wow fadeInUp" data-wow-delay="0.3s"
+												style="display: flex; justify-content: center;"
 
+											>
+												
+												<li data-content="signup">
+													NEXT
+												</li>
+
+											</ul>  -->
+											
+											<!-- gp-tabs-navigation -->
 											
 										</form>
+										
 										<!-- /.account-form -->
 									</li>
 
-									<li data-content="signup">
+									<li data-content="signup" class="secondpage">
                                         <h3>Education</h3>
 										<form action="#" class="account-form">
 											<div class="gp-input-group">
@@ -264,28 +295,42 @@
                                             <div class="gp-input-group">
 												<label for="roll_no">Enrollment Number</label>
 												<input type="text" class="gp-input" name="username" id="username" placeholder="Enrollment number">
-											</div>
-											
+											</div>	
 
+											<!-- <ul class="gp-tabs-navigation account-nav wow fadeInUp" data-wow-delay="0.3s"
 											
+											style="display: flex; justify-content: center;"
+
+											>
+												<li data-content="inbox" class="active-tab">
+													BACK
+												</li>
+												<li data-content="signud">
+													NEXT
+												</li>
+											</ul>  -->
+											
+											<!-- gp-tabs-navigation -->
+
 										</form>
+										
 
 									<li data-content="signud">
                                         <h3>E-cell Related</h3>
 										<form action="#" class="account-form">
 											<div class="gp-input-group">
 												<label for="username">What do you know about Ecell?</label>
-												<textarea style="height: 70px;" style="overflow:hidden" style="resize: none;" class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
+												<textarea style="height: 120px;" style="overflow:hidden" style="resize: none;" class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
 											</div>
 
                                             <div class="gp-input-group">
 												<label for="username">What is Ecell?</label>
-												<textarea style="height: 70px;" style="overflow:hidden" style="resize: none;" class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
+												<textarea style="height: 120px;" style="overflow:hidden" style="resize: none;" class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
 											</div>
 
                                             <div class="gp-input-group">
 												<label for="username">Why choose Ecell?</label>
-												<textarea style="height: 70px;" style="overflow:hidden" style="resize: none;" class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
+												<textarea style="height: 120px;" style="overflow:hidden" style="resize: none;" class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
 											</div>
 											
 
@@ -296,7 +341,23 @@
 											<button type="button" class="gp-btn submit-btn" value="">
 												Submit <i class="ei ei-arrow_right"></i>
 											</button>
+
+											<!-- <ul class="gp-tabs-navigation account-nav wow fadeInUp" data-wow-delay="0.3s"
+											
+											
+
+											>
+												
+												<li data-content="signup">
+													BACK
+												</li>
+												
+											</ul>  -->
+											
+											<!-- gp-tabs-navigation -->
+											
 										</form>
+										
 										<!-- /.account-form -->
 									</li>
 
@@ -322,12 +383,11 @@
 						<div class="col-lg-4 col-md-6">
 							<div class="widget footer-widget widget-about">
 								<div class="footer-logo">
-									<img src="assets/img/logo.png" alt="site-logo" width="150px">
+									<img src="assets/img/logo3.png" alt="site-logo" width="150px">
 								</div>
 								<div class="copyright-text">
-									<p class="copyright-text">Copyright © 2023 Ecell RGPV.
-                                        <br> All Rights Reserved</p>
-                                    <p>e-Entrepreneurship Cell is a non-profit organisation solely with the purpose of creating awareness towards the developing entrepreneurial culture in our surrounding</p>
+									<p class="copyright-text">E-Entrepreneurship Cell is a non-profit organisation solely with the purpose of creating awareness towards the developing entrepreneurial culture</p>
+                              
 								</div>
 
 								<ul class="footer-social-link">
@@ -347,7 +407,7 @@
 								<ul class="footer-menu">
 									<li><a href="#">Home</a></li>
 									<li><a href="#">About Us</a></li>
-									<li><a href="#">Contact Us</a></li>
+									<li><a href="./contact.html">Contact Us</a></li>
 									<li><a href="#">Gallery</a></li>
 									<li><a href="#">Post Events</a></li>
 									<li><a href="#">CAP</a></li>
@@ -362,11 +422,11 @@
 								<h3 class="widget-title">Spotlights</h3>
 
 								<ul class="footer-menu">
-									<li><a href="#">SIP</a></li>
+									<li><a href="./sip.html">SIP</a></li>
 									<li><a href="#">Startup Incubation</a></li>
 									<li><a href="#">E-Mentoring</a></li>
 									<li><a href="#">Skill Development</a></li>
-									<li><a href="#">Alumni E-cell RGPV</a></li>
+									<li><a href="./alumni.html">Alumni E-cell RGPV</a></li>
 								</ul>
 							</div>
 							<!-- /.widget footer-widget -->
@@ -375,7 +435,7 @@
 
 						<div class="col-lg-2 col-md-6">
 							<div class="widget footer-widget">
-								<h3 class="widget-title">Information</h3>
+								<h3 class="widget-title">Contact Us</h3>
 
 								<ul class="footer-menu">
 									<li> <p>E-Cell RGPV, Gandhi Nagar, Bhopal</p> </li>
