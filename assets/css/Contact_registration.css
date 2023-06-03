@@ -17426,6 +17426,21 @@ input[type=radio] {
 	width: auto;
 }
 
+.account-form{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.account-form .gp-input-group{
+	width: calc(100% / 2 - 20px);
+}
+
+.account-form .gplocal{
+	width: 100%;
+}
+
+
 .account-form .submit-btn {
 	width: auto;
 	display: inline-block;
@@ -17465,15 +17480,25 @@ input::-webkit-inner-spin-button {
 	margin: 0;
 }
 
+.gbecell{
+	display: block;
+}
+
+.gbecell .gb-ecell{
+	width: 100%;
+}
+
 .account-form .gp-input-group .gp-input1{
+	display: flex;
 	background-color: #f7f7fa;
 	border-color: #e9e9f0;
-	height: 45px;
+	height: 55px;
 	border-radius: 5px;
 	margin: 0;
 	outline: none;
-	margin-left: 50px;
+	margin-left: 0px;
 	color: #adb4c7;
+	width: 100%;
 }
 
 .account-form .gp-input:focus {

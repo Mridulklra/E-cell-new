@@ -227,27 +227,27 @@
 										<form action="#" class="account-form">
 											<div class="gp-input-group">
 												<label for="login_username">Name</label>
-												<input type="text" class="gp-input" name="login_username" id="login_username" placeholder="Name">
+												<input type="text" class="gp-input" name="login_username" id="login_username" required placeholder="Name">
 											</div>
 
 											<div class="gp-input-group mb-25">
 												<label for="login_email">Email</label>
-												<input type="email" class="gp-input" name="login_email" id="login_email" placeholder="Email">
+												<input type="email" class="gp-input" name="login_email" id="login_email" required placeholder="Email">
 											</div>
 
-                                            <div class="gp-input-group">
+                                            <div class="gp-input-group gplocal">
 												<label for="address">Local Address</label>
-												<input type="text" class="gp-input" name="login_username" id="login_username" placeholder="Address">
+												<input type="text" class="gp-input" name="login_username" id="login_username" required placeholder="Address">
 											</div>
 
                                             <div class="gp-input-group">
 												<label for="Mobile No">Mobile Number</label>
-												<input type="number" class="gp-input" name="mobile_number" id="mobile_number" placeholder="Mobile Number">
+												<input type="number" class="gp-input" name="mobile_number" id="mobile_number" required placeholder="Mobile Number">
 											</div>
 
                                             <div class="gp-input-group">
 												<label for="Mobile No">Whatsapp Number</label>
-												<input type="number" class="gp-input" name="mobile_number" id="mobile_number" placeholder="Whatsapp Number">
+												<input type="number" class="gp-input" name="mobile_number" id="mobile_number" required placeholder="Whatsapp Number">
 											</div>
 
 											<!-- <ul class="gp-tabs-navigation account-nav wow fadeInUp" data-wow-delay="0.3s"
@@ -272,19 +272,35 @@
                                         <h3>Education</h3>
 										<form action="#" class="account-form">
 											<div class="gp-input-group">
-												<label for="username">College</label>
-												<input type="text" class="gp-input" name="username" id="username" placeholder="UIT,SOIT,Others">
+												<label for="">College</label>
+												<select class="gp-input1" name="" required id="">
+                                                    <option value="Select">Select Here</option>
+                                                    <option value="1">SOIT</option>
+                                                    <option value="2">UIT</option>
+                                                    <option value="3">Others</option>
+                                                </select>
 											</div>
 
 											<div class="gp-input-group">
-												<label for="email_address">Branch</label>
-												<input type="text" name="Branch" class="gp-input" id="email_address" placeholder="Branch Name">
+												<label for="">Branch</label>
+												<select class="gp-input1" name="" required id="">
+                                                    <option value="Select">Select Here</option>
+                                                    <option value="1">CSE</option>
+                                                    <option value="1">CSE AIML</option>
+                                                    <option value="1">CSBS</option>
+                                                    <option value="1">CSE DS</option>
+                                                    <option value="2">ECE</option>
+                                                    <option value="3">EX</option>
+                                                    <option value="3">Mech</option>
+                                                    <option value="3">Civil</option>
+                                                    <option value="3">Auto</option>
+                                                </select>
 											</div>
 
                                             <div class="gp-input-group">
 												<label for="roll_no">Year</label>
-												<select class="gp-input1" name="" id="">
-                                                    <option value="Select"></option>
+												<select class="gp-input1" name="" required id="">
+                                                    <option value="Select">Select here</option>
                                                     <option value="1">1st</option>
                                                     <option value="2">2nd</option>
                                                     <option value="3">3rd</option>
@@ -294,7 +310,7 @@
 
                                             <div class="gp-input-group">
 												<label for="roll_no">Enrollment Number</label>
-												<input type="text" class="gp-input" name="username" id="username" placeholder="Enrollment number">
+												<input type="text" class="gp-input" name="username" id="username" required placeholder="Enrollment number">
 											</div>	
 
 											<!-- <ul class="gp-tabs-navigation account-nav wow fadeInUp" data-wow-delay="0.3s"
@@ -317,20 +333,20 @@
 
 									<li data-content="signud">
                                         <h3>E-cell Related</h3>
-										<form action="#" class="account-form">
-											<div class="gp-input-group">
+										<form action="#" class="account-form gbecell">
+											<div class="gp-input-group gb-ecell">
 												<label for="username">What do you know about Ecell?</label>
-												<textarea style="height: 120px;" style="overflow:hidden" style="resize: none;" class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
+												<textarea style="height: 120px;" style="overflow:hidden" style="resize: none;" required class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
 											</div>
 
-                                            <div class="gp-input-group">
+                                            <div class="gp-input-group gb-ecell">
 												<label for="username">What is Ecell?</label>
-												<textarea style="height: 120px;" style="overflow:hidden" style="resize: none;" class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
+												<textarea style="height: 120px;" style="overflow:hidden" style="resize: none;" required class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
 											</div>
 
-                                            <div class="gp-input-group">
+                                            <div class="gp-input-group gb-ecell">
 												<label for="username">Why choose Ecell?</label>
-												<textarea style="height: 120px;" style="overflow:hidden" style="resize: none;" class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
+												<textarea style="height: 120px;" style="overflow:hidden" style="resize: none;" required class="gp-input" name="" id="" placeholder="Write here within 100 words" cols="90" rows="50" ></textarea>
 											</div>
 											
 
