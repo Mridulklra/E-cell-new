@@ -1390,8 +1390,8 @@ Creation date: 24/08/2018 05:51
 	border-radius: 3px;
 	font-size: 15px;
 	font-weight: 500;
-	-webkit-box-shadow: 0 10px 20px 0 rgba(6, 148, 73, 0.3);
-	        box-shadow: 0 10px 20px 0 rgba(6, 148, 73, 0.3);
+	-webkit-box-shadow: 0 10px 20px 0 rgba(31, 51, 182, 0.769);
+	        box-shadow: 0 10px 20px 0 rgba(23, 26, 179, 0.705);
 }
 .gp-btn.banner-btn {
 	padding: 11px 33px;
@@ -1549,8 +1549,8 @@ Creation date: 24/08/2018 05:51
 .gp-btn.btn-grey:hover {
 	color: #fff;
 	border-color: #1abf68;
-	-webkit-box-shadow: 0 10px 20px 0 rgba(26, 191, 104, 0.3);
-	        box-shadow: 0 10px 20px 0 rgba(26, 191, 104, 0.3);
+	-webkit-box-shadow: 0 10px 20px 0 rgba(26, 40, 191, 0.597);
+	        box-shadow: 0 10px 20px 0 rgba(26, 62, 191, 0.3);
 }
 .gp-btn.btn-grey:hover:after {
 	height: 100%;
@@ -1570,8 +1570,8 @@ Creation date: 24/08/2018 05:51
 }
 .gp-btn.color-eight {
 	border-color: #00c99c;
-	-webkit-box-shadow: 0 20px 30px 0 rgba(0, 201, 156, 0.16);
-	        box-shadow: 0 20px 30px 0 rgba(0, 201, 156, 0.16);
+	-webkit-box-shadow: 0 20px 30px 0 rgba(39, 53, 203, 0.689);
+	        box-shadow: 0 20px 30px 0 rgba(39, 53, 203, 0.689);
 	border-width: 2px;
 }
 .gp-btn.color-eight:after {
